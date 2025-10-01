@@ -43,11 +43,11 @@ dan CSS.</p>
 
 📸 **SCREENSHOOT VSCODE DAN BROWSER/TAMPILAN**
 
-<img src="vscode1.png" width="700">
+<img src="pict vscode1.png" width="700">
 
 <br>
 
-<img src="tampilan.png" width="700">
+<img src="pict1.png" width="700">
 
 
 ### 2. Mendeklarasikan CSS Internal
