@@ -114,10 +114,11 @@ nav a:hover {
 }
 ```
 
-Kemudian tambahkan tag <link> untuk merujuk file css yang sudah dibuat pada bagian <head>
+Kemudian tambahkan tag `<link>` untuk merujuk file css yang sudah dibuat pada bagian ``<head>``
 ```
 <link rel="stylesheet" href="css_eksternal.css" type="text/css">
 ```
+
 
 
 
