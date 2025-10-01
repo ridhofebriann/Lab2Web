@@ -79,7 +79,7 @@ Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokum
 
 **CONTOH TAMPILAN**
 
-<img src="vscode2.png" width="700">
+<img src="pict2.png" width="700">
 
 ### 3. Menambahkan Inline CSS
 
@@ -89,7 +89,7 @@ Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut.
 ```
 **CONTOH TAMPILAN**
 
-<img src="vscode2.png" width="700">
+<img src="pict3.png" width="700">
 
 ### 4. Membuat CSS Eksternal
 Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut.
@@ -119,9 +119,9 @@ Kemudian tambahkan tag <link> untuk merujuk file css yang sudah dibuat pada bagi
 
 **CONTOH TAMPILAN VSCODE DAN TAMPILAN BROWSERNYA**
 
-<img src="vscode2.png" width="700">
+<img src="pict vscode2.png" width="700">
 
-img src="vscode2.png" width="700">
+img src="pict4.png" width="700">
 
 
 ### 5. Menambahkan CSS Selector
@@ -157,16 +157,16 @@ style_eksternal.css, tambahkan kode berikut.
 
 **CONTOH TAMPILAN**
 
-<img src="vscode2.png" width="700">
+<img src="pict5.png" width="700">
 
 ### 6. validasi dokumen css dengan mengakses `https://jigsaw.w3.org/css-validator/`
 **BERIKUT TAMPILANNYA**
 
-<img src="vscode2.png" width="700">
+<img src="pict6.png" width="700">
 
 ### 7. Hasil Praktikum:
 
-<img src="vscode2.png" width="700">
+<img src="vsc.png" width="700">
 
 
 ### Pertanyaan dan Tugas
