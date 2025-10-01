@@ -119,6 +119,7 @@ Kemudian tambahkan tag `<link>` untuk merujuk file css yang sudah dibuat pada ba
 <link rel="stylesheet" href="css_eksternal.css" type="text/css">
 ```
 
+<img src="pict vscode5.png" width="700">
 
 
 
