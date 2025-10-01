@@ -1,6 +1,6 @@
 
 
-# Pratikum 2 - CSS
+# Pratikum 2 - CSS Dasar
 ### NAMA : M. Ridho Febrian
 ### NIM : 312410500
 ### KELAS : TI.24.A5
@@ -53,7 +53,7 @@ dan CSS.</p>
 ### 2. Mendeklarasikan CSS Internal
 Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokumen.
 
-```
+```css
 <head>
     <title>CSS Dasar</title>
     <style>
@@ -86,7 +86,8 @@ Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokum
 ### 3. Menambahkan Inline CSS
 
 Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut.
-```
+
+```css
 <p style="text-align: center; color: #ccd8e4;">
 ```
 **CONTOH TAMPILAN**
@@ -97,7 +98,8 @@ Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut.
 
 ### 4. Membuat CSS Eksternal
 Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut.
-```
+
+```css
  nav {
   background: #20a759;
   color: #fff;
@@ -115,6 +117,7 @@ nav a:hover {
 ```
 
 Kemudian tambahkan tag `<link>` untuk merujuk file css yang sudah dibuat pada bagian ``<head>``
+
 ```
 <link rel="stylesheet" href="css_eksternal.css" type="text/css">
 ```
@@ -134,7 +137,8 @@ Kemudian tambahkan tag `<link>` untuk merujuk file css yang sudah dibuat pada ba
 
 Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file
 style_eksternal.css, tambahkan kode berikut.
-```
+
+```css
 /* ID Selector */
 #intro {
   background: #418fb1;
@@ -193,7 +197,7 @@ Berikan penjelasan dan contohnya! `(<p id="paragraf-1" class="text-paragraf"> )`
 Aku sudah coba utak-atik kode CSS dengan menambahkan beberapa properti dari cheat sheet. Misalnya, awalnya hanya ada `color: blue;`, aku tambahin `font-size: 24px;`, `background-color: lightgray;`, sama `text-align: center;`. Hasilnya, teks jadi lebih besar, warna latar belakang abu-abu muda, dan posisinya di tengah. Dari eksperimen ini jadi kelihatan kalau setiap properti CSS bisa langsung ngubah tampilan elemen HTML sesuai nilai yang dikasih.
 
 **buat file baru**
-```
+```html
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -216,6 +220,7 @@ Aku sudah coba utak-atik kode CSS dengan menambahkan beberapa properti dari chea
 </body>
 </html>
 ```
+
 **TAMPILAN NYA**
 
 <img src="pict7.png" width="700">
@@ -227,7 +232,8 @@ Tapi kalau `#intro h1 { ... }`, styling hanya berlaku untuk elemen `<h1>`yang be
 Eksternal < Internal < Inline.
 
 **buat file baru html dan css nya**
-```
+
+```html
 <!DOCTYPE html>
 <html lang="id">
   <head>
@@ -253,7 +259,8 @@ Eksternal < Internal < Inline.
   </body>
 </html>
 ```
-```
+
+```css
 p {
   color: green;   /* ini dari eksternal */
 }
@@ -268,7 +275,8 @@ Hasilnya: teks tampil merah karena inline lebih kuat daripada internal atau ekst
   4. Kalau sebuah elemen punya ID dan Class sekaligus, dan dua-duanya ada deklarasi CSS, maka yang ditampilkan adalah CSS dengan selector ID. Alasannya, ID punya tingkat spesifisitas lebih tinggi daripada Class.
 **contohnya**
 **buat baru file html**
-```
+
+```html
 <!DOCTYPE html>
 <html lang="id">
 <head>
