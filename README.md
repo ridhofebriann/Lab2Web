@@ -79,6 +79,8 @@ Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokum
 
 **CONTOH TAMPILAN**
 
+<img src="pict vscode2.png" width="700">
+
 <img src="pict2.png" width="700">
 
 ### 3. Menambahkan Inline CSS
@@ -88,6 +90,8 @@ Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut.
 <p style="text-align: center; color: #ccd8e4;">
 ```
 **CONTOH TAMPILAN**
+
+<img src="pict vscode3.png" width="700">
 
 <img src="pict4.png" width="700">
 
@@ -119,7 +123,7 @@ Kemudian tambahkan tag <link> untuk merujuk file css yang sudah dibuat pada bagi
 
 **CONTOH TAMPILAN VSCODE DAN TAMPILAN BROWSERNYA**
 
-<img src="pict vscode2.png" width="700">
+<img src="pict vscode4.png" width="700">
 
 <img src="pict3.png" width="700">
 
@@ -212,7 +216,7 @@ Aku sudah coba utak-atik kode CSS dengan menambahkan beberapa properti dari chea
 ```
 **TAMPILAN NYA**
 
-<img src="pict8.png" width="700">
+<img src="pict7.png" width="700">
 
   2. Kalau nulis `h1 { ... }`, itu berarti semua elemen `<h1>` di dalam halaman akan kena styling yang sama.
 Tapi kalau `#intro h1 { ... }`, styling hanya berlaku untuk elemen `<h1>`yang berada di dalam elemen dengan `id="intro"`. Jadi lebih spesifik dan terarah. Misalnya kalau ada dua `<h1>`, satu di dalam `#intro` dan satu lagi di luar, maka yang berubah cuma yang di dalam `#intro`.
@@ -255,7 +259,7 @@ p {
 
 **TAMPILAN NYA**
 
-<img src="pict7.png" width="700">
+<img src="pict8.png" width="700">
 
 Hasilnya: teks tampil merah karena inline lebih kuat daripada internal atau eksternal.
 
@@ -291,7 +295,7 @@ Hasilnya: teks tampil merah karena inline lebih kuat daripada internal atau ekst
 ```
 **tampilannya**
 
-<img src="pict.png" width="700">
+<img src="pict9.png" width="700">
 
 **Penjelasan**
 
